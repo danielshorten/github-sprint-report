@@ -26,6 +26,6 @@ Download a comma-separated values report about issues tagged with `sprint` in mu
     `export PATH=$HOME/src/github-sprint-report:$PATH`
 4. (Recommended) Add an alias to generate a sprint report
 
-    `alias sprint-report="report.sh Retriever Rover Spiders machine-learning"
+    `alias sprint-report="report.sh Retriever Rover Spiders machine-learning"`
     In this example, all the repositories with sprint issues are checked out in the same directory.  The
     script will iterate through each subdirectory and output a report for all of the issues tagged with `sprint`
