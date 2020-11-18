@@ -17,14 +17,14 @@ Download a comma-separated values report about issues tagged with `sprint` in mu
     ```
 
 ## Installation
-2. Clone this repository
-3. Ensure the report script is executable
+1. Clone this repository
+2. Ensure the report script is executable
     
     `chmod 755 report.sh`
-4. (Recommended) Set up a shell profile to add the `report.sh` script to your `PATH`
+3. (Recommended) Set up a shell profile to add the `report.sh` script to your `PATH`
     
     `export PATH=$HOME/src/github-sprint-report:$PATH`
-5. (Recommended) Add an alias to generate a sprint report
+4. (Recommended) Add an alias to generate a sprint report
 
     `alias sprint-report="report.sh Retriever Rover Spiders machine-learning"
     In this example, all the repositories with sprint issues are checked out in the same directory.  The
