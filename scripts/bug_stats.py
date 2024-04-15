@@ -33,5 +33,5 @@ print(f"""
 ISSUES: {len(issues)}
 CRITICAL: {len(critical_issues)}
 AVG. TIME TO FIX: {time_to_fix_avg(issues)}
-AVG. CRITICAL TIME TO FIX: {time_to_fix_avg(critical_issues)}
+CRITICAL AVG. TTF: {time_to_fix_avg(critical_issues)}
 """)
